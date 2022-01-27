@@ -1,0 +1,10 @@
+{/*  con la funcion map podemos recorrer el elemento seleccionado en este caso las tasks json que creamos anteriormente */}
+      {/* { this.state.tasks.map(e=><h1>{e.title}</h1>) } */}
+{/*       key={elemento unico de nuestra lista} esto nos sirve a la hora de iterar que no nos de error, e este caso nuestro elemnto unico es el id */}
+     {/* { this.state.tasks.map(e=> <p key={e.id}>
+       {e.title} - {e.description} - {e.id} - {e.done}
+       <Tasks/> */}
+    
+   {/*  </p>)} */}
+{/*    de esta manera añadimos la funcion addTask arriba creada al componente taskform que es el que recibe los datos del formulario
+ */}   
